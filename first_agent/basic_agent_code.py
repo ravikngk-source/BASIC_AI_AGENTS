@@ -10,7 +10,7 @@ def get_weather(location):
         return "Unable to fetch weather data."
 
 client = openai.OpenAI(
-    api_key="AIzaSyAaOp8kvXCoRE4zUQb45laRTCodm939CDo",
+    api_key="Your API KEY IS HERE",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
